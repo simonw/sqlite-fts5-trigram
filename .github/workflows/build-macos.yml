@@ -1,0 +1,17 @@
+name: Build for macOS
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build
+      run: build-macos.sh
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: macos-ftstri.so
+        path: ftstri.so
