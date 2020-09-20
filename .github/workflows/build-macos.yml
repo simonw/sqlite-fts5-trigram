@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: build-macos.sh
+      run: ./build-macos.sh
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
