@@ -6,6 +6,8 @@ Code by Dan Kennedy, shared on [this forum thread](https://sqlite.org/forum/foru
 
 See also [my weeknotes](https://simonwillison.net/2020/Sep/26/weeknotes-software-carpentry-sqlite/) describing this repository.
 
+**This repository is now obsolete** because this shipped as a feature in December 2020 in [SQLite 3.34.0](https://www.sqlite.org/releaselog/3_34_0.html).
+
 Example usage:
 ```
 Python 3.8.5 (default, Jul 21 2020, 10:48:26) 
